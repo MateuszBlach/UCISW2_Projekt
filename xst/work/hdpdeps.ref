@@ -1,0 +1,6 @@
+V3 3
+FL /home/vboxuser/ucisw1_lab7/projekt/KBD_TO_WAV.vhd 2024/05/17.23:02:07 P.20131013
+EN work/KBD_TO_WAV 1715979732 \
+      FL /home/vboxuser/ucisw1_lab7/projekt/KBD_TO_WAV.vhd PB ieee/std_logic_1164 1381692176
+AR work/KBD_TO_WAV/Behavioral 1715979733 \
+      FL /home/vboxuser/ucisw1_lab7/projekt/KBD_TO_WAV.vhd EN work/KBD_TO_WAV 1715979732

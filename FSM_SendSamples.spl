@@ -1,0 +1,17 @@
+[Inputs]
+Clk
+Reset
+SRate_Tick
+SampRdy
+DWr_Busy
+=SampL[15:0]=
+=SampR[15:0]=
+[Outputs]
+Samp_Pop
+DWr_Start
+Tx_S
+=DWr_Cmd[3:0]=
+=DWr_Adr[3:0]=
+=DWr_Data[11:0]=
+=Tx_D[7:0]=
+[BiDir]

@@ -1,0 +1,4 @@
+vhdtdtfi -lib work FSM_SendSamples.vhd -prj projekt -o FSM_SendSamples.spl -module FSM_SendSamples -template /opt/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e FSM_SendSamples.spl /home/vboxuser/ucisw1_lab7/projekt/FSM_SendSamples.sym 
+vhdtdtfi -lib work FSM_SendSamples.vhd -prj projekt -o FSM_SendSamples.spl -module FSM_SendSamples -template /opt/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e FSM_SendSamples.spl /home/vboxuser/ucisw1_lab7/projekt/FSM_SendSamples.sym 

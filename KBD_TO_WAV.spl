@@ -1,0 +1,13 @@
+[Inputs]
+RS_RxD
+RS_TxD
+Rx_Bdy
+Tx_Busy
+=Rx_DO[7:0]=
+[Outputs]
+Wav_Start
+Wav_Abort
+T_S
+=F_name[7:0]=
+=Tx_D[7:0]=
+[BiDir]
