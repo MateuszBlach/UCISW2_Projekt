@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <report-views version="2.0" >
  <header>
-  <DateModified>2024-05-17T20:50:25</DateModified>
+  <DateModified>2024-05-20T21:34:08</DateModified>
   <ModuleName>main</ModuleName>
   <SummaryTimeStamp>Unknown</SummaryTimeStamp>
   <SavedFilePath>/home/vboxuser/ucisw1_lab7/projekt/iseconfig/main.xreport</SavedFilePath>
-  <ImplementationReportsDirectory>/home/vboxuser/ucisw1_lab7/projekt</ImplementationReportsDirectory>
+  <ImplementationReportsDirectory>/home/vboxuser/ucisw1_lab7/projekt/</ImplementationReportsDirectory>
   <DateInitialized>2024-05-17T20:50:25</DateInitialized>
   <EnableMessageFiltering>false</EnableMessageFiltering>
  </header>

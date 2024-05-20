@@ -1,0 +1,15 @@
+[Inputs]
+RS_RxD
+RS_TxD
+Rx_Rdy
+Tx_Rdy
+Clock
+Reset
+=RS_RxDO[7:0]=
+[Outputs]
+Start
+Abort
+Tx_Start
+=F_Name[7:0]=
+=Tx_Di[7:0]=
+[BiDir]

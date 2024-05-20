@@ -1,0 +1,2 @@
+vhdtdtfi -lib work KBD_TO_FNAME.vhd -prj projekt -o KBD_TO_FNAME.spl -module KBD_TO_FNAME -template /opt/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w KBD_TO_FNAME.spl /home/vboxuser/ucisw1_lab7/projekt/KBD_TO_FNAME.sym 
