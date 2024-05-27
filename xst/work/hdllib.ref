@@ -1,2 +1,4 @@
 EN kbd_to_wav NULL /home/vboxuser/ucisw1_lab7/projekt/KBD_TO_WAV.vhd sub00/vhpl00 1715979732
 AR kbd_to_wav behavioral /home/vboxuser/ucisw1_lab7/projekt/KBD_TO_WAV.vhd sub00/vhpl01 1715979733
+EN rs2wav NULL /home/vboxuser/ucisw1_lab7/projekt/rs2wav.vhd sub00/vhpl02 1716832286
+AR rs2wav behavioral /home/vboxuser/ucisw1_lab7/projekt/rs2wav.vhd sub00/vhpl03 1716832287

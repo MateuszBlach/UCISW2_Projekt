@@ -1,0 +1,10 @@
+[Inputs]
+RDY_in
+CLK
+Busy
+=DO_in[7:0]=
+[Outputs]
+RDY_out
+RESET
+=DO_out[7:0]=
+[BiDir]

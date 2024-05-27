@@ -1,6 +1,11 @@
-V3 3
+V3 6
 FL /home/vboxuser/ucisw1_lab7/projekt/KBD_TO_WAV.vhd 2024/05/17.23:02:07 P.20131013
 EN work/KBD_TO_WAV 1715979732 \
       FL /home/vboxuser/ucisw1_lab7/projekt/KBD_TO_WAV.vhd PB ieee/std_logic_1164 1381692176
 AR work/KBD_TO_WAV/Behavioral 1715979733 \
       FL /home/vboxuser/ucisw1_lab7/projekt/KBD_TO_WAV.vhd EN work/KBD_TO_WAV 1715979732
+FL /home/vboxuser/ucisw1_lab7/projekt/rs2wav.vhd 2024/05/27.19:51:02 P.20131013
+EN work/rs2wav 1716832286 FL /home/vboxuser/ucisw1_lab7/projekt/rs2wav.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/rs2wav/Behavioral 1716832287 \
+      FL /home/vboxuser/ucisw1_lab7/projekt/rs2wav.vhd EN work/rs2wav 1716832286

@@ -26,11 +26,15 @@
     <file xil_pn:fileType="FILE_SPL" xil_pn:name="FSM_SendSamples.spl"/>
     <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="FSM_SendSamples.sym" xil_pn:origination="imported"/>
     <file xil_pn:fileType="FILE_SPL" xil_pn:name="KBD_TO_FNAME.spl"/>
-    <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="KBD_TO_FNAME.sym" xil_pn:origination="imported"/>
     <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="KBD_TO_WAV.prj"/>
     <file xil_pn:fileType="FILE_SPL" xil_pn:name="KBD_TO_WAV.spl"/>
     <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="KBD_TO_WAV.stx"/>
     <file xil_pn:fileType="FILE_XST" xil_pn:name="KBD_TO_WAV.xst"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="rs2wav.prj"/>
+    <file xil_pn:fileType="FILE_SPL" xil_pn:name="rs2wav.spl"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="rs2wav.stx"/>
+    <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="rs2wav.sym" xil_pn:origination="imported"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="rs2wav.xst"/>
     <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xst"/>
   </files>
 
