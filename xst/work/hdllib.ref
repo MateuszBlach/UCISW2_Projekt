@@ -1,4 +1,6 @@
-EN kbd_to_wav NULL /home/vboxuser/ucisw1_lab7/projekt/KBD_TO_WAV.vhd sub00/vhpl00 1715979732
-AR kbd_to_wav behavioral /home/vboxuser/ucisw1_lab7/projekt/KBD_TO_WAV.vhd sub00/vhpl01 1715979733
-EN rs2wav NULL /home/vboxuser/ucisw1_lab7/projekt/rs2wav.vhd sub00/vhpl02 1716832286
-AR rs2wav behavioral /home/vboxuser/ucisw1_lab7/projekt/rs2wav.vhd sub00/vhpl03 1716832287
+EN rs2wav NULL C:/Users/lab/Desktop/ucisw2805/test_rs232/rs2wav.vhd sub00/vhpl02 1716907224
+AR rs2wav behavioral C:/Users/lab/Desktop/ucisw2805/test_rs232/rs2wav.vhd sub00/vhpl03 1716907225
+AR rs_test behavioral C:/Users/lab/Desktop/ucisw2805/test_rs232/rs_test.vhf sub00/vhpl01 1716907229
+EN rs_test NULL C:/Users/lab/Desktop/ucisw2805/test_rs232/rs_test.vhf sub00/vhpl00 1716907228
+EN fsm_sendsamples NULL C:/Users/lab/Desktop/ucisw2805/test_rs232/FSM_SendSamples.vhd sub00/vhpl04 1716907226
+AR fsm_sendsamples behavioral C:/Users/lab/Desktop/ucisw2805/test_rs232/FSM_SendSamples.vhd sub00/vhpl05 1716907227

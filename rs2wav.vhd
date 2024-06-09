@@ -38,10 +38,49 @@ begin
 				end if;
 			when aborting =>
 				if Busy = '0' then
-					RESET <= '0';
-					DO_out <= DO_in;
-					RDY_out <= '1';
-					next_state <= idle;
+					RESET <= '0';	
+					case DO_in is
+						when x"71" => -- a
+							DO_out <= x"41";
+							RDY_out <= '1';
+							next_state <= idle;
+						when x"77" => -- s
+							DO_out <= x"53";
+							RDY_out <= '1';
+							next_state <= idle;
+						when x"65" => -- d
+							DO_out <= x"44";
+							RDY_out <= '1';
+							next_state <= idle;
+						when x"72" => -- f
+							DO_out <= x"46";
+							RDY_out <= '1';
+							next_state <= idle;
+						when x"74" => -- g
+							DO_out <= x"47";
+							RDY_out <= '1';
+							next_state <= idle;
+						when x"79" => -- h
+							DO_out <= x"48";
+							RDY_out <= '1';
+							next_state <= idle;
+						when x"75" => -- j
+							DO_out <= x"4A";
+							RDY_out <= '1';
+							next_state <= idle;
+						when x"69" => -- k
+							DO_out <= x"4B";
+							RDY_out <= '1';
+							next_state <= idle;
+						when x"6F" => -- l
+							DO_out <= x"4C";
+							RDY_out <= '1';
+							next_state <= idle;
+						when others =>
+							DO_out <= x"00";
+							RDY_out <= '0';
+							next_state <= idle;
+					end case;
 				end if;
 		end case;
 	end process process2;

@@ -8,5 +8,11 @@
 <!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.    -->
 
 <messages>
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/vboxuser/ucisw1_lab7/projekt/FSM_SendSamples.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/vboxuser/ucisw1_lab7/projekt/rs2wav.vhd&quot; into library work</arg>
+</msg>
+
 </messages>
 

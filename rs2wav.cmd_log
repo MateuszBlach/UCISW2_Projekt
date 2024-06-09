@@ -1,2 +1,2 @@
-vhdtdtfi -lib work rs2wav.vhd -prj projekt -o rs2wav.spl -module rs2wav -template /opt/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
-spl2sym -intstyle ise -family spartan3e -w rs2wav.spl /home/vboxuser/ucisw1_lab7/projekt/rs2wav.sym 
+vhdtdtfi -lib work rs2wav.vhd -prj test_rs232 -o rs2wav.spl -module rs2wav -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e rs2wav.spl C:/Users/lab/Desktop/ucisw2805/test_rs232/rs2wav.sym 

@@ -1,0 +1,3 @@
+vhdl work "rs2wav.vhd"
+vhdl work "FSM_SendSamples.vhd"
+vhdl work "rs_test.vhf"

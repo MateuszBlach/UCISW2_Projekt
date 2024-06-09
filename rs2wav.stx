@@ -1,37 +1,33 @@
-Release 14.7 - xst P.20131013 (lin64)
+Release 14.7 - xst P.20131013 (nt64)
 Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
---> 
-Parameter TMPDIR set to /home/vboxuser/ucisw1_lab7/projekt/xst/projnav.tmp
+--> Parameter TMPDIR set to C:/Users/lab/Desktop/ucisw2805/test_rs232/xst/projnav.tmp
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.02 secs
+Total CPU time to Xst completion: 0.09 secs
  
---> 
-Parameter xsthdpdir set to /home/vboxuser/ucisw1_lab7/projekt/xst
+--> Parameter xsthdpdir set to C:/Users/lab/Desktop/ucisw2805/test_rs232/xst
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.03 secs
+Total CPU time to Xst completion: 0.09 secs
  
---> 
-WARNING:Xst:3164 - Option "-debug" found multiple times in the command line. Only the first occurence is considered.
+--> WARNING:Xst:3164 - Option "-debug" found multiple times in the command line. Only the first occurence is considered.
 
 =========================================================================
 *                          HDL Compilation                              *
 =========================================================================
-Compiling vhdl file "/home/vboxuser/ucisw1_lab7/projekt/rs2wav.vhd" in Library work.
+Compiling vhdl file "C:/Users/lab/Desktop/ucisw2805/test_rs232/rs2wav.vhd" in Library work.
 Entity <rs2wav> compiled.
-Entity <rs2wav> (Architecture <Behavioral>) compiled.
+Entity <rs2wav> (Architecture <behavioral>) compiled.
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.05 secs
+Total CPU time to Xst completion: 0.11 secs
  
 --> 
 
-
-Total memory usage is 455768 kilobytes
+Total memory usage is 4469588 kilobytes
 
 Number of errors   :    0 (   0 filtered)
 Number of warnings :    1 (   0 filtered)

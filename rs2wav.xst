@@ -1,5 +1,5 @@
-set -tmpdir "/home/vboxuser/ucisw1_lab7/projekt/xst/projnav.tmp"
-set -xsthdpdir "/home/vboxuser/ucisw1_lab7/projekt/xst"
+set -tmpdir "C:/Users/lab/Desktop/ucisw2805/test_rs232/xst/projnav.tmp"
+set -xsthdpdir "C:/Users/lab/Desktop/ucisw2805/test_rs232/xst"
 elaborate
 -ifn rs2wav.prj
 -ifmt mixed

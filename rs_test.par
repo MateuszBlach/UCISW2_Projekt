@@ -1,0 +1,203 @@
+Release 14.7 par P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+LAB016-07::  Tue May 28 16:40:40 2024
+
+par -w -intstyle ise -ol high -t 1 rs_test_map.ncd rs_test.ncd rs_test.pcf 
+
+
+Constraints file: rs_test.pcf.
+Loading device for application Rf_Device from file '3s500e.nph' in environment C:\Xilinx\14.7\ISE_DS\ISE\.
+   "rs_test" is an NCD, version 3.2, device xc3s500e, package fg320, speed -4
+
+Initializing temperature to 85.000 Celsius. (default - Range: -40.000 to 100.000 Celsius)
+Initializing voltage to 1.140 Volts. (default - Range: 1.140 to 1.320 Volts)
+
+
+Device speed data version:  "PRODUCTION 1.27 2013-10-13".
+
+
+Design Summary Report:
+
+ Number of External IOBs                          23 out of 232     9%
+
+   Number of External Input IOBs                  5
+
+      Number of External Input IBUFs              5
+        Number of LOCed External Input IBUFs      5 out of 5     100%
+
+
+   Number of External Output IOBs                18
+
+      Number of External Output IOBs             18
+        Number of LOCed External Output IOBs     18 out of 18    100%
+
+
+   Number of External Bidir IOBs                  0
+
+
+   Number of BUFGMUXs                        1 out of 24      4%
+   Number of RAMB16s                         1 out of 20      5%
+   Number of Slices                       1050 out of 4656   22%
+      Number of SLICEMs                      0 out of 2328    0%
+
+
+
+Overall effort level (-ol):   High 
+Placer effort level (-pl):    High 
+Placer cost table entry (-t): 1
+Router effort level (-rl):    High 
+
+Starting initial Timing Analysis.  REAL time: 1 secs 
+Finished initial Timing Analysis.  REAL time: 1 secs 
+
+
+Starting Placer
+Total REAL time at the beginning of Placer: 1 secs 
+Total CPU  time at the beginning of Placer: 1 secs 
+
+Phase 1.1  Initial Placement Analysis
+Phase 1.1  Initial Placement Analysis (Checksum:c0c17146) REAL time: 1 secs 
+
+Phase 2.7  Design Feasibility Check
+Phase 2.7  Design Feasibility Check (Checksum:c0c17146) REAL time: 1 secs 
+
+Phase 3.31  Local Placement Optimization
+Phase 3.31  Local Placement Optimization (Checksum:c0c17146) REAL time: 1 secs 
+
+Phase 4.2  Initial Clock and IO Placement
+
+Phase 4.2  Initial Clock and IO Placement (Checksum:b326e17e) REAL time: 2 secs 
+
+Phase 5.30  Global Clock Region Assignment
+Phase 5.30  Global Clock Region Assignment (Checksum:b326e17e) REAL time: 2 secs 
+
+Phase 6.36  Local Placement Optimization
+Phase 6.36  Local Placement Optimization (Checksum:b326e17e) REAL time: 2 secs 
+
+Phase 7.8  Global Placement
+.........
+........................................................................................................
+...........
+........
+Phase 7.8  Global Placement (Checksum:627dff24) REAL time: 3 secs 
+
+Phase 8.5  Local Placement Optimization
+Phase 8.5  Local Placement Optimization (Checksum:627dff24) REAL time: 3 secs 
+
+Phase 9.18  Placement Optimization
+Phase 9.18  Placement Optimization (Checksum:a4be1240) REAL time: 4 secs 
+
+Phase 10.5  Local Placement Optimization
+Phase 10.5  Local Placement Optimization (Checksum:a4be1240) REAL time: 4 secs 
+
+Total REAL time to Placer completion: 4 secs 
+Total CPU  time to Placer completion: 4 secs 
+Writing design to file rs_test.ncd
+
+
+
+Starting Router
+
+
+Phase  1  : 7274 unrouted;      REAL time: 7 secs 
+
+Phase  2  : 6695 unrouted;      REAL time: 7 secs 
+
+Phase  3  : 1635 unrouted;      REAL time: 7 secs 
+
+Phase  4  : 1635 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 8 secs 
+
+Phase  5  : 0 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 8 secs 
+
+Updating file: rs_test.ncd with current fully routed design.
+
+Phase  6  : 0 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 8 secs 
+
+Phase  7  : 0 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 8 secs 
+
+Phase  8  : 0 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 9 secs 
+WARNING:Route:455 - CLK Net:clk_BUFGP may have excessive skew because 
+      0 CLK pins and 1 NON_CLK pins failed to route using a CLK template.
+WARNING:Route:455 - CLK Net:XLXI_7/state<0> may have excessive skew because 
+      0 CLK pins and 5 NON_CLK pins failed to route using a CLK template.
+WARNING:Route:455 - CLK Net:XLXI_8/XLXI_3/State<1> may have excessive skew because 
+      0 CLK pins and 12 NON_CLK pins failed to route using a CLK template.
+
+Total REAL time to Router completion: 9 secs 
+Total CPU time to Router completion: 9 secs 
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+Generating "PAR" statistics.
+
+**************************
+Generating Clock Report
+**************************
+
++---------------------+--------------+------+------+------------+-------------+
+|        Clock Net    |   Resource   |Locked|Fanout|Net Skew(ns)|Max Delay(ns)|
++---------------------+--------------+------+------+------------+-------------+
+|           clk_BUFGP | BUFGMUX_X1Y11| No   |  523 |  0.081     |  0.198      |
++---------------------+--------------+------+------+------------+-------------+
+|XLXI_7/RESET_not0001 |              |      |      |            |             |
+|                     |         Local|      |    2 |  0.082     |  2.009      |
++---------------------+--------------+------+------+------------+-------------+
+|XLXI_8/XLXI_3/State< |              |      |      |            |             |
+|                  1> |         Local|      |   14 |  0.246     |  2.402      |
++---------------------+--------------+------+------+------------+-------------+
+|     XLXI_7/state<0> |         Local|      |   11 |  0.130     |  2.476      |
++---------------------+--------------+------+------+------------+-------------+
+
+* Net Skew is the difference between the minimum and maximum routing
+only delays for the net. Note this is different from Clock Skew which
+is reported in TRCE timing report. Clock Skew is the difference between
+the minimum and maximum path delays which includes logic delays.
+
+* The fanout is the number of component pins not the individual BEL loads,
+for example SLICE loads not FF loads.
+
+Timing Score: 0 (Setup: 0, Hold: 0, Component Switching Limit: 0)
+
+Asterisk (*) preceding a constraint indicates it was not met.
+   This may be due to a setup or hold violation.
+
+----------------------------------------------------------------------------------------------------------
+  Constraint                                |    Check    | Worst Case |  Best Case | Timing |   Timing   
+                                            |             |    Slack   | Achievable | Errors |    Score   
+----------------------------------------------------------------------------------------------------------
+  NET "clk_BUFGP/IBUFG" PERIOD = 20 ns HIGH | SETUP       |     5.744ns|    14.256ns|       0|           0
+   50%                                      | HOLD        |     0.963ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+
+
+All constraints were met.
+
+
+Generating Pad Report.
+
+All signals are completely routed.
+
+Total REAL time to PAR completion: 9 secs 
+Total CPU time to PAR completion: 9 secs 
+
+Peak Memory Usage:  4438 MB
+
+Placement: Completed - No errors found.
+Routing: Completed - No errors found.
+Timing: Completed - No errors found.
+
+Number of error messages: 0
+Number of warning messages: 3
+Number of info messages: 0
+
+Writing design to file rs_test.ncd
+
+
+
+PAR done!

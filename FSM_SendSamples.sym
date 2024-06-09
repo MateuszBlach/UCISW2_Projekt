@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <symbol version="7" name="FSM_SendSamples">
     <symboltype>BLOCK</symboltype>
-    <timestamp>2024-5-17T19:16:28</timestamp>
+    <timestamp>2024-5-28T13:29:13</timestamp>
     <pin polarity="Input" x="0" y="-416" name="Clk" />
     <pin polarity="Input" x="0" y="-352" name="Reset" />
     <pin polarity="Input" x="0" y="-288" name="SRate_Tick" />

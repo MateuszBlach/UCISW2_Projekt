@@ -1,11 +1,22 @@
-V3 6
-FL /home/vboxuser/ucisw1_lab7/projekt/KBD_TO_WAV.vhd 2024/05/17.23:02:07 P.20131013
-EN work/KBD_TO_WAV 1715979732 \
-      FL /home/vboxuser/ucisw1_lab7/projekt/KBD_TO_WAV.vhd PB ieee/std_logic_1164 1381692176
-AR work/KBD_TO_WAV/Behavioral 1715979733 \
-      FL /home/vboxuser/ucisw1_lab7/projekt/KBD_TO_WAV.vhd EN work/KBD_TO_WAV 1715979732
-FL /home/vboxuser/ucisw1_lab7/projekt/rs2wav.vhd 2024/05/27.19:51:02 P.20131013
-EN work/rs2wav 1716832286 FL /home/vboxuser/ucisw1_lab7/projekt/rs2wav.vhd \
+V3 17
+FL /home/vboxuser/ucisw1_lab7/test_rs232/rs_test.vhf 2024/05/28.14:40:00 P.20131013
+FL C:/Users/lab/Desktop/ucisw2805/test_rs232/FSM_SendSamples.vhd 2024/05/27.20:15:50 P.20131013
+EN work/FSM_SendSamples 1716907226 \
+      FL C:/Users/lab/Desktop/ucisw2805/test_rs232/FSM_SendSamples.vhd \
       PB ieee/std_logic_1164 1381692176
-AR work/rs2wav/Behavioral 1716832287 \
-      FL /home/vboxuser/ucisw1_lab7/projekt/rs2wav.vhd EN work/rs2wav 1716832286
+AR work/FSM_SendSamples/Behavioral 1716907227 \
+      FL C:/Users/lab/Desktop/ucisw2805/test_rs232/FSM_SendSamples.vhd \
+      EN work/FSM_SendSamples 1716907226
+FL C:/Users/lab/Desktop/ucisw2805/test_rs232/rs2wav.vhd 2024/05/28.16:40:21 P.20131013
+EN work/rs2wav 1716907224 FL C:/Users/lab/Desktop/ucisw2805/test_rs232/rs2wav.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/rs2wav/Behavioral 1716907225 \
+      FL C:/Users/lab/Desktop/ucisw2805/test_rs232/rs2wav.vhd EN work/rs2wav 1716907224
+FL C:/Users/lab/Desktop/ucisw2805/test_rs232/rs_test.vhf 2024/05/28.16:23:07 P.20131013
+EN work/rs_test 1716907228 \
+      FL C:/Users/lab/Desktop/ucisw2805/test_rs232/rs_test.vhf \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/rs_test/BEHAVIORAL 1716907229 \
+      FL C:/Users/lab/Desktop/ucisw2805/test_rs232/rs_test.vhf EN work/rs_test 1716907228 \
+      CP RS232 CP GND CP rs2wav CP WAVreader CP FSM_SendSamples CP DACWrite

@@ -1,0 +1,112 @@
+xst -intstyle ise -ifn "/home/vboxuser/ucisw1_lab7/test_rs232/rs_test.xst" -ofn "/home/vboxuser/ucisw1_lab7/test_rs232/rs_test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -p xc3s500e-fg320-4 rs_test.ngc rs_test.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -p xc3s500e-fg320-4 rs_test.ngc rs_test.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o rs_test_map.ncd rs_test.ngd rs_test.pcf 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/ucisw2805/test_rs232/rs_test.xst" -ofn "C:/Users/lab/Desktop/ucisw2805/test_rs232/rs_test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -p xc3s500e-fg320-4 rs_test.ngc rs_test.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o rs_test_map.ncd rs_test.ngd rs_test.pcf 
+par -w -intstyle ise -ol high -t 1 rs_test_map.ncd rs_test.ncd rs_test.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml rs_test.twx rs_test.ncd -o rs_test.twr rs_test.pcf -ucf GenIO.ucf 
+bitgen -intstyle ise -f rs_test.ut rs_test.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/ucisw2805/test_rs232/rs_test.xst" -ofn "C:/Users/lab/Desktop/ucisw2805/test_rs232/rs_test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -uc PS2_USB_SDC.ucf -uc ADC_DAC.ucf -p xc3s500e-fg320-4 rs_test.ngc rs_test.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o rs_test_map.ncd rs_test.ngd rs_test.pcf 
+par -w -intstyle ise -ol high -t 1 rs_test_map.ncd rs_test.ncd rs_test.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml rs_test.twx rs_test.ncd -o rs_test.twr rs_test.pcf -ucf GenIO.ucf -ucf PS2_USB_SDC.ucf -ucf ADC_DAC.ucf 
+bitgen -intstyle ise -f rs_test.ut rs_test.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/ucisw2805/test_rs232/rs_test.xst" -ofn "C:/Users/lab/Desktop/ucisw2805/test_rs232/rs_test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -uc PS2_USB_SDC.ucf -uc ADC_DAC.ucf -p xc3s500e-fg320-4 rs_test.ngc rs_test.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o rs_test_map.ncd rs_test.ngd rs_test.pcf 
+par -w -intstyle ise -ol high -t 1 rs_test_map.ncd rs_test.ncd rs_test.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml rs_test.twx rs_test.ncd -o rs_test.twr rs_test.pcf -ucf GenIO.ucf -ucf PS2_USB_SDC.ucf -ucf ADC_DAC.ucf 
+bitgen -intstyle ise -f rs_test.ut rs_test.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/ucisw2805/test_rs232/rs_test.xst" -ofn "C:/Users/lab/Desktop/ucisw2805/test_rs232/rs_test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -uc PS2_USB_SDC.ucf -uc ADC_DAC.ucf -p xc3s500e-fg320-4 rs_test.ngc rs_test.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o rs_test_map.ncd rs_test.ngd rs_test.pcf 
+par -w -intstyle ise -ol high -t 1 rs_test_map.ncd rs_test.ncd rs_test.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml rs_test.twx rs_test.ncd -o rs_test.twr rs_test.pcf -ucf GenIO.ucf -ucf PS2_USB_SDC.ucf -ucf ADC_DAC.ucf 
+bitgen -intstyle ise -f rs_test.ut rs_test.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/ucisw2805/test_rs232/rs_test.xst" -ofn "C:/Users/lab/Desktop/ucisw2805/test_rs232/rs_test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -uc PS2_USB_SDC.ucf -uc ADC_DAC.ucf -p xc3s500e-fg320-4 rs_test.ngc rs_test.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o rs_test_map.ncd rs_test.ngd rs_test.pcf 
+par -w -intstyle ise -ol high -t 1 rs_test_map.ncd rs_test.ncd rs_test.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml rs_test.twx rs_test.ncd -o rs_test.twr rs_test.pcf -ucf GenIO.ucf -ucf PS2_USB_SDC.ucf -ucf ADC_DAC.ucf 
+bitgen -intstyle ise -f rs_test.ut rs_test.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -uc PS2_USB_SDC.ucf -uc ADC_DAC.ucf -p xc3s500e-fg320-4 rs_test.ngc rs_test.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o rs_test_map.ncd rs_test.ngd rs_test.pcf 
+par -w -intstyle ise -ol high -t 1 rs_test_map.ncd rs_test.ncd rs_test.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml rs_test.twx rs_test.ncd -o rs_test.twr rs_test.pcf -ucf GenIO.ucf -ucf PS2_USB_SDC.ucf -ucf ADC_DAC.ucf 
+bitgen -intstyle ise -f rs_test.ut rs_test.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/ucisw2805/test_rs232/rs_test.xst" -ofn "C:/Users/lab/Desktop/ucisw2805/test_rs232/rs_test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -uc PS2_USB_SDC.ucf -uc ADC_DAC.ucf -p xc3s500e-fg320-4 rs_test.ngc rs_test.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o rs_test_map.ncd rs_test.ngd rs_test.pcf 
+par -w -intstyle ise -ol high -t 1 rs_test_map.ncd rs_test.ncd rs_test.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml rs_test.twx rs_test.ncd -o rs_test.twr rs_test.pcf -ucf GenIO.ucf -ucf PS2_USB_SDC.ucf -ucf ADC_DAC.ucf 
+bitgen -intstyle ise -f rs_test.ut rs_test.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/ucisw2805/test_rs232/rs_test.xst" -ofn "C:/Users/lab/Desktop/ucisw2805/test_rs232/rs_test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -uc PS2_USB_SDC.ucf -uc ADC_DAC.ucf -p xc3s500e-fg320-4 rs_test.ngc rs_test.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o rs_test_map.ncd rs_test.ngd rs_test.pcf 
+par -w -intstyle ise -ol high -t 1 rs_test_map.ncd rs_test.ncd rs_test.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml rs_test.twx rs_test.ncd -o rs_test.twr rs_test.pcf -ucf GenIO.ucf -ucf PS2_USB_SDC.ucf -ucf ADC_DAC.ucf 
+bitgen -intstyle ise -f rs_test.ut rs_test.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/ucisw2805/test_rs232/rs_test.xst" -ofn "C:/Users/lab/Desktop/ucisw2805/test_rs232/rs_test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -uc PS2_USB_SDC.ucf -uc ADC_DAC.ucf -p xc3s500e-fg320-4 rs_test.ngc rs_test.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o rs_test_map.ncd rs_test.ngd rs_test.pcf 
+par -w -intstyle ise -ol high -t 1 rs_test_map.ncd rs_test.ncd rs_test.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml rs_test.twx rs_test.ncd -o rs_test.twr rs_test.pcf -ucf GenIO.ucf -ucf PS2_USB_SDC.ucf -ucf ADC_DAC.ucf 
+bitgen -intstyle ise -f rs_test.ut rs_test.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/ucisw2805/test_rs232/rs_test.xst" -ofn "C:/Users/lab/Desktop/ucisw2805/test_rs232/rs_test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -uc PS2_USB_SDC.ucf -uc ADC_DAC.ucf -p xc3s500e-fg320-4 rs_test.ngc rs_test.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o rs_test_map.ncd rs_test.ngd rs_test.pcf 
+par -w -intstyle ise -ol high -t 1 rs_test_map.ncd rs_test.ncd rs_test.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml rs_test.twx rs_test.ncd -o rs_test.twr rs_test.pcf -ucf GenIO.ucf -ucf PS2_USB_SDC.ucf -ucf ADC_DAC.ucf 
+bitgen -intstyle ise -f rs_test.ut rs_test.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/ucisw2805/test_rs232/rs_test.xst" -ofn "C:/Users/lab/Desktop/ucisw2805/test_rs232/rs_test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -uc PS2_USB_SDC.ucf -uc ADC_DAC.ucf -p xc3s500e-fg320-4 rs_test.ngc rs_test.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o rs_test_map.ncd rs_test.ngd rs_test.pcf 
+par -w -intstyle ise -ol high -t 1 rs_test_map.ncd rs_test.ncd rs_test.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml rs_test.twx rs_test.ncd -o rs_test.twr rs_test.pcf -ucf GenIO.ucf -ucf PS2_USB_SDC.ucf -ucf ADC_DAC.ucf 
+bitgen -intstyle ise -f rs_test.ut rs_test.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/ucisw2805/test_rs232/rs_test.xst" -ofn "C:/Users/lab/Desktop/ucisw2805/test_rs232/rs_test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -uc PS2_USB_SDC.ucf -uc ADC_DAC.ucf -p xc3s500e-fg320-4 rs_test.ngc rs_test.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o rs_test_map.ncd rs_test.ngd rs_test.pcf 
+par -w -intstyle ise -ol high -t 1 rs_test_map.ncd rs_test.ncd rs_test.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml rs_test.twx rs_test.ncd -o rs_test.twr rs_test.pcf -ucf GenIO.ucf -ucf PS2_USB_SDC.ucf -ucf ADC_DAC.ucf 
+bitgen -intstyle ise -f rs_test.ut rs_test.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/ucisw2805/test_rs232/rs_test.xst" -ofn "C:/Users/lab/Desktop/ucisw2805/test_rs232/rs_test.syr" 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/ucisw2805/test_rs232/rs_test.xst" -ofn "C:/Users/lab/Desktop/ucisw2805/test_rs232/rs_test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -uc PS2_USB_SDC.ucf -uc ADC_DAC.ucf -p xc3s500e-fg320-4 rs_test.ngc rs_test.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o rs_test_map.ncd rs_test.ngd rs_test.pcf 
+par -w -intstyle ise -ol high -t 1 rs_test_map.ncd rs_test.ncd rs_test.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml rs_test.twx rs_test.ncd -o rs_test.twr rs_test.pcf -ucf GenIO.ucf -ucf PS2_USB_SDC.ucf -ucf ADC_DAC.ucf 
+bitgen -intstyle ise -f rs_test.ut rs_test.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/ucisw2805/test_rs232/rs_test.xst" -ofn "C:/Users/lab/Desktop/ucisw2805/test_rs232/rs_test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -uc PS2_USB_SDC.ucf -uc ADC_DAC.ucf -p xc3s500e-fg320-4 rs_test.ngc rs_test.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o rs_test_map.ncd rs_test.ngd rs_test.pcf 
+par -w -intstyle ise -ol high -t 1 rs_test_map.ncd rs_test.ncd rs_test.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml rs_test.twx rs_test.ncd -o rs_test.twr rs_test.pcf -ucf GenIO.ucf -ucf PS2_USB_SDC.ucf -ucf ADC_DAC.ucf 
+bitgen -intstyle ise -f rs_test.ut rs_test.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/ucisw2805/test_rs232/rs_test.xst" -ofn "C:/Users/lab/Desktop/ucisw2805/test_rs232/rs_test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -uc PS2_USB_SDC.ucf -uc ADC_DAC.ucf -p xc3s500e-fg320-4 rs_test.ngc rs_test.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o rs_test_map.ncd rs_test.ngd rs_test.pcf 
+par -w -intstyle ise -ol high -t 1 rs_test_map.ncd rs_test.ncd rs_test.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml rs_test.twx rs_test.ncd -o rs_test.twr rs_test.pcf -ucf GenIO.ucf -ucf PS2_USB_SDC.ucf -ucf ADC_DAC.ucf 
+bitgen -intstyle ise -f rs_test.ut rs_test.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/ucisw2805/test_rs232/rs_test.xst" -ofn "C:/Users/lab/Desktop/ucisw2805/test_rs232/rs_test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -uc PS2_USB_SDC.ucf -uc ADC_DAC.ucf -p xc3s500e-fg320-4 rs_test.ngc rs_test.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o rs_test_map.ncd rs_test.ngd rs_test.pcf 
+par -w -intstyle ise -ol high -t 1 rs_test_map.ncd rs_test.ncd rs_test.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml rs_test.twx rs_test.ncd -o rs_test.twr rs_test.pcf -ucf GenIO.ucf -ucf PS2_USB_SDC.ucf -ucf ADC_DAC.ucf 
+bitgen -intstyle ise -f rs_test.ut rs_test.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/ucisw2805/test_rs232/rs_test.xst" -ofn "C:/Users/lab/Desktop/ucisw2805/test_rs232/rs_test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -uc PS2_USB_SDC.ucf -uc ADC_DAC.ucf -p xc3s500e-fg320-4 rs_test.ngc rs_test.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o rs_test_map.ncd rs_test.ngd rs_test.pcf 
+par -w -intstyle ise -ol high -t 1 rs_test_map.ncd rs_test.ncd rs_test.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml rs_test.twx rs_test.ncd -o rs_test.twr rs_test.pcf -ucf GenIO.ucf -ucf PS2_USB_SDC.ucf -ucf ADC_DAC.ucf 
+bitgen -intstyle ise -f rs_test.ut rs_test.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/ucisw2805/test_rs232/rs_test.xst" -ofn "C:/Users/lab/Desktop/ucisw2805/test_rs232/rs_test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -uc PS2_USB_SDC.ucf -uc ADC_DAC.ucf -p xc3s500e-fg320-4 rs_test.ngc rs_test.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o rs_test_map.ncd rs_test.ngd rs_test.pcf 
+par -w -intstyle ise -ol high -t 1 rs_test_map.ncd rs_test.ncd rs_test.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml rs_test.twx rs_test.ncd -o rs_test.twr rs_test.pcf -ucf GenIO.ucf -ucf PS2_USB_SDC.ucf -ucf ADC_DAC.ucf 
+bitgen -intstyle ise -f rs_test.ut rs_test.ncd 
